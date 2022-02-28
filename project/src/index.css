@@ -4776,6 +4776,9 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+/* .card_bg{
+  padding: 0 30px;
+} */
 
 .card {
   position: relative;
@@ -4844,6 +4847,12 @@ fieldset:disabled .btn {
   justify-content: center;
   align-content: center;
 }
+@media only screen and (max-width: 992px) {
+  .card-head {
+    padding: 55px;
+  }
+}
+
 .card-head span {
   color: #1d1a1a71;
 }
