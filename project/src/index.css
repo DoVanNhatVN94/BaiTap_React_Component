@@ -4852,6 +4852,11 @@ fieldset:disabled .btn {
     padding: 55px;
   }
 }
+@media only screen and (max-width: 720px) {
+  .card-head {
+    padding: 40px;
+  }
+}
 
 .card-head span {
   color: #1d1a1a71;
