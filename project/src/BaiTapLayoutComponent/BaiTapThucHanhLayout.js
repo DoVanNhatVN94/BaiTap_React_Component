@@ -1,17 +1,19 @@
 import React, { Component } from 'react'
-import ContentComponent from './ContentComponent.js'
-import FooterComponent from './FooterComponent.js'
-import HeaderComponent from './HeaderComponent'
-import NavComponent from './NavComponent.js'
+import Body from './Body.js'
+import Footer from './Footer.js'
+import Header from './Header.js'
+
+
+
+
 
 export default class BaiTapThucHanhLayout extends Component {
   render() {
     return (
       <div>
-          <NavComponent/>
-          <HeaderComponent/>
-          <ContentComponent/>
-          <FooterComponent/>
+          <Header/>
+          <Body/>
+          <Footer/>
       </div>
     )
   }

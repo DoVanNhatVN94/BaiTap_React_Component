@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class HeaderComponent extends Component {
+export default class Banner extends Component {
   render() {
     return (
       <header className="py-5">
